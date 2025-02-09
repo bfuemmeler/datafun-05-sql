@@ -68,21 +68,8 @@ D. Select VS Code interpreter to use .venv
 Design a schema with at least two related tables, including foreign key constraints.
 Document the schema design in your README.md.
 
-CREATE TABLE Suppliers (
-    supplier_id INT PRIMARY KEY AUTO_INCREMENT,
-    name VARCHAR(100) NOT NULL,
-    email VARCHAR(100) UNIQUE NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
-
-CREATE TABLE Orders (
-    order_id INT PRIMARY KEY AUTO_INCREMENT,
-    supplier_id INT NOT NULL,
-    user_id INT NOT NULL,
-    order_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (user_id) REFERENCES Users(user_id) ON DELETE CASCADE
-);
-
+# Added P5 data folder
+# Added author.csv file and books.csv file
 
 sql_create folder:
 
