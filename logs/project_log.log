@@ -1,0 +1,290 @@
+2025-01-31 17:38:05.333 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 17:38:05.333 | INFO     | __main__:main:93 - Starting CSV fetch demonstration...
+2025-01-31 17:38:05.333 | INFO     | __main__:fetch_csv_file:52 - Fetching CSV data from https://raw.githubusercontent.com/MainakRepositor/Datasets/master/World%20Happiness%20Data/2020.csv...
+2025-01-31 17:38:05.763 | INFO     | __main__:write_csv_file:76 - Writing CSV data to example_data\2020_happiness.csv...
+2025-01-31 17:38:05.784 | INFO     | __main__:write_csv_file:80 - SUCCESS: CSV data written to example_data\2020_happiness.csv
+2025-01-31 17:38:05.786 | INFO     | __main__:fetch_csv_file:56 - SUCCESS: CSV file fetched and saved as 2020_happiness.csv
+2025-01-31 17:38:49.428 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 17:38:49.428 | INFO     | __main__:main:93 - Starting Excel fetch demonstration...
+2025-01-31 17:38:49.429 | INFO     | __main__:fetch_excel_file:52 - Fetching Excel data from https://raw.githubusercontent.com/denisecase/datafun-03-analytics/main/hosted/Feedback.xlsx...
+2025-01-31 17:38:49.843 | INFO     | __main__:write_excel_file:76 - Writing Excel data to example_data\feedback.xlsx...
+2025-01-31 17:38:49.846 | INFO     | __main__:write_excel_file:80 - SUCCESS: Excel data written to example_data\feedback.xlsx
+2025-01-31 17:38:49.846 | INFO     | __main__:fetch_excel_file:56 - SUCCESS: Excel file fetched and saved as feedback.xlsx
+2025-01-31 17:38:56.052 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 17:38:56.052 | INFO     | __main__:main:94 - Starting JSON fetch demonstration...
+2025-01-31 17:38:56.052 | INFO     | __main__:fetch_json_file:53 - Fetching JSON data from http://api.open-notify.org/astros.json...
+2025-01-31 17:39:17.195 | ERROR    | __main__:fetch_json_file:61 - Request error occurred: HTTPConnectionPool(host='api.open-notify.org', port=80): Max retries exceeded with url: /astros.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000220EB8632C0>, 'Connection to api.open-notify.org timed out. (connect timeout=None)'))
+2025-01-31 17:39:40.142 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 17:39:40.142 | INFO     | __main__:main:94 - Starting JSON fetch demonstration...
+2025-01-31 17:39:40.143 | INFO     | __main__:fetch_json_file:53 - Fetching JSON data from http://api.open-notify.org/astros.json...
+2025-01-31 17:39:41.255 | INFO     | __main__:write_json_file:77 - Writing JSON data to example_data\astros.json...
+2025-01-31 17:39:41.273 | INFO     | __main__:write_json_file:81 - SUCCESS: JSON data written to example_data\astros.json
+2025-01-31 17:39:41.273 | INFO     | __main__:fetch_json_file:57 - SUCCESS: JSON file fetched and saved as astros.json
+2025-01-31 17:39:51.899 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 17:39:51.899 | INFO     | __main__:main:93 - Starting text fetch demonstration...
+2025-01-31 17:39:51.899 | INFO     | __main__:fetch_txt_file:52 - Fetching text data from https://raw.githubusercontent.com/denisecase/datafun-03-analytics/main/hosted/romeo.txt...
+2025-01-31 17:39:52.470 | INFO     | __main__:write_txt_file:76 - Writing data to example_data\romeo.txt...
+2025-01-31 17:39:52.470 | INFO     | __main__:write_txt_file:80 - SUCCESS: Data written to example_data\romeo.txt
+2025-01-31 17:39:52.470 | INFO     | __main__:fetch_txt_file:56 - SUCCESS: Text file fetched and saved as romeo.txt
+2025-01-31 18:34:30.673 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 18:34:30.674 | INFO     | __main__:<module>:76 - Starting CSV processing...
+2025-01-31 18:37:20.468 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 18:37:20.473 | INFO     | __main__:<module>:77 - Starting CSV processing...
+2025-01-31 18:39:06.853 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 18:39:06.854 | INFO     | __main__:<module>:77 - Starting CSV processing...
+2025-01-31 18:39:34.616 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 18:39:34.616 | INFO     | __main__:<module>:77 - Starting CSV processing...
+2025-01-31 18:39:57.684 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 18:39:57.684 | INFO     | __main__:<module>:77 - Starting CSV processing...
+2025-01-31 18:43:54.278 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 18:43:54.278 | INFO     | __main__:<module>:77 - Starting CSV processing...
+2025-01-31 18:46:28.275 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 18:46:28.275 | INFO     | __main__:<module>:77 - Starting CSV processing...
+2025-01-31 18:48:33.663 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 18:48:33.663 | INFO     | __main__:<module>:77 - Starting CSV processing...
+2025-01-31 18:50:08.325 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 18:50:08.326 | INFO     | __main__:<module>:77 - Starting CSV processing...
+2025-01-31 18:52:49.974 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 18:52:49.974 | INFO     | __main__:<module>:76 - Starting CSV processing...
+2025-01-31 19:38:42.437 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 19:47:26.260 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 20:19:43.227 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 20:19:43.227 | INFO     | __main__:<module>:112 - Starting CSV processing...
+2025-01-31 20:24:13.135 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 20:24:13.135 | INFO     | __main__:<module>:112 - Starting CSV processing...
+2025-01-31 20:30:55.999 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 20:30:56.001 | INFO     | __main__:<module>:112 - Starting CSV processing...
+2025-01-31 20:33:03.259 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 20:33:03.259 | INFO     | __main__:<module>:112 - Starting CSV processing...
+2025-01-31 20:37:24.286 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 20:37:24.287 | INFO     | __main__:<module>:112 - Starting CSV processing...
+2025-01-31 20:41:24.171 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 20:41:24.172 | INFO     | __main__:<module>:112 - Starting CSV processing...
+2025-01-31 20:42:50.924 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 20:42:50.924 | INFO     | __main__:<module>:112 - Starting CSV processing...
+2025-01-31 20:46:17.961 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 20:46:17.962 | INFO     | __main__:<module>:112 - Starting CSV processing...
+2025-01-31 20:48:40.233 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 20:48:40.233 | INFO     | __main__:<module>:52 - Starting text processing...
+2025-01-31 20:48:40.233 | ERROR    | __main__:count_word_occurrences:33 - Error reading text file: [Errno 2] No such file or directory: 'example-data\\jimmy-buffett.txt'
+2025-01-31 20:48:40.234 | INFO     | __main__:process_text_file:45 - Processed text file: example-data\jimmy-buffett.txt, Word count saved to: example-processed-data\text_margaritaville_word_count.txt
+2025-01-31 20:48:40.234 | INFO     | __main__:<module>:54 - Text processing complete.
+2025-01-31 20:51:11.470 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 20:51:11.471 | INFO     | __main__:<module>:52 - Starting text processing...
+2025-01-31 20:52:53.220 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 20:52:53.220 | INFO     | __main__:<module>:52 - Starting text processing...
+2025-01-31 20:56:18.799 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 20:56:18.799 | INFO     | __main__:<module>:52 - Starting text processing...
+2025-01-31 20:56:18.800 | INFO     | __main__:process_text_file:45 - Processed text file: C:\Projects\datafun-03-analytics\datafun-03-analytics\example-data\jimmy-buffett.txt, Word count saved to: example-processed-data\example-processed-data
+2025-01-31 20:56:18.800 | INFO     | __main__:<module>:54 - Text processing complete.
+2025-02-01 08:18:16.500 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 08:18:16.500 | INFO     | __main__:<module>:61 - Starting Excel processing...
+2025-02-01 08:18:16.500 | ERROR    | __main__:count_word_in_column:41 - Error reading Excel file: openpyxl does not support .xlxs file format, please check you can open it with Excel first. Supported formats are: .xlsx,.xlsm,.xltx,.xltm
+2025-02-01 08:18:16.502 | INFO     | __main__:process_excel_file:54 - Processed Excel file: example_data\day-forecast.xlxs, Word count saved to: example-processed-data\excel_processed_fullmoon_count.txt
+2025-02-01 08:18:16.503 | INFO     | __main__:<module>:63 - Excel processing complete.
+2025-02-01 08:21:47.227 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 08:21:47.227 | INFO     | __main__:<module>:61 - Starting Excel processing...
+2025-02-01 08:21:47.227 | ERROR    | __main__:count_word_in_column:41 - Error reading Excel file: [Errno 2] No such file or directory: 'example_data\\day-forecast.xlsx'
+2025-02-01 08:21:47.228 | INFO     | __main__:process_excel_file:54 - Processed Excel file: example_data\day-forecast.xlsx, Word count saved to: example-processed-data\excel_processed_fullmoon_count.txt
+2025-02-01 08:21:47.228 | INFO     | __main__:<module>:63 - Excel processing complete.
+2025-02-01 08:23:22.119 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 08:23:22.120 | INFO     | __main__:<module>:61 - Starting Excel processing...
+2025-02-01 08:23:22.120 | ERROR    | __main__:count_word_in_column:41 - Error reading Excel file: [Errno 2] No such file or directory: 'example_data\\day-forecast.xlsx'
+2025-02-01 08:23:22.120 | INFO     | __main__:process_excel_file:54 - Processed Excel file: example_data\day-forecast.xlsx, Word count saved to: example-processed-data\excel_processed_fullmoon_count.txt
+2025-02-01 08:23:22.120 | INFO     | __main__:<module>:63 - Excel processing complete.
+2025-02-01 08:24:13.938 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 08:24:13.938 | INFO     | __main__:<module>:61 - Starting Excel processing...
+2025-02-01 08:24:13.938 | ERROR    | __main__:count_word_in_column:41 - Error reading Excel file: [Errno 2] No such file or directory: 'example_data\\day-forecast.xlsx'
+2025-02-01 08:24:13.943 | INFO     | __main__:process_excel_file:54 - Processed Excel file: example_data\day-forecast.xlsx, Word count saved to: example-processed-data\excel_processed_fullmoon_count.txt
+2025-02-01 08:24:13.943 | INFO     | __main__:<module>:63 - Excel processing complete.
+2025-02-01 08:25:06.736 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 08:25:06.736 | INFO     | __main__:<module>:61 - Starting Excel processing...
+2025-02-01 08:25:06.736 | ERROR    | __main__:count_word_in_column:41 - Error reading Excel file: [Errno 2] No such file or directory: 'example_data\\day-forecast.xlsx'
+2025-02-01 08:25:06.736 | INFO     | __main__:process_excel_file:54 - Processed Excel file: example_data\day-forecast.xlsx, Word count saved to: example-processed-data\excel_processed_fullmoon_count.txt
+2025-02-01 08:25:06.736 | INFO     | __main__:<module>:63 - Excel processing complete.
+2025-02-01 08:27:39.054 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 08:27:39.054 | INFO     | __main__:<module>:61 - Starting Excel processing...
+2025-02-01 08:27:39.054 | ERROR    | __main__:count_word_in_column:41 - Error reading Excel file: [Errno 2] No such file or directory: 'example_data\\day-forecast.xlsx'
+2025-02-01 08:27:39.054 | INFO     | __main__:process_excel_file:54 - Processed Excel file: example_data\day-forecast.xlsx, Word count saved to: example-processed-data\excel_processed_fullmoon_count.txt
+2025-02-01 08:27:39.054 | INFO     | __main__:<module>:63 - Excel processing complete.
+2025-02-01 08:28:09.719 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 08:28:09.720 | INFO     | __main__:<module>:61 - Starting Excel processing...
+2025-02-01 08:28:09.720 | ERROR    | __main__:count_word_in_column:41 - Error reading Excel file: [Errno 2] No such file or directory: 'example_data\\day-forecast.xlsx'
+2025-02-01 08:28:09.720 | INFO     | __main__:process_excel_file:54 - Processed Excel file: example_data\day-forecast.xlsx, Word count saved to: example-processed-data\excel_processed_fullmoon_count.txt
+2025-02-01 08:28:09.721 | INFO     | __main__:<module>:63 - Excel processing complete.
+2025-02-01 08:30:14.864 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 08:30:14.865 | INFO     | __main__:<module>:61 - Starting Excel processing...
+2025-02-01 08:30:14.865 | ERROR    | __main__:count_word_in_column:41 - Error reading Excel file: [Errno 2] No such file or directory: 'example_data\\day-forecast.xlsx'
+2025-02-01 08:30:14.866 | INFO     | __main__:process_excel_file:54 - Processed Excel file: example_data\day-forecast.xlsx, Word count saved to: example-processed-data\excel_processed_fullmoon_count.txt
+2025-02-01 08:30:14.866 | INFO     | __main__:<module>:63 - Excel processing complete.
+2025-02-01 08:31:26.947 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 08:31:26.947 | INFO     | __main__:<module>:61 - Starting Excel processing...
+2025-02-01 08:31:26.947 | ERROR    | __main__:count_word_in_column:41 - Error reading Excel file: [Errno 2] No such file or directory: 'example_data\\day-forecast.xlsx'
+2025-02-01 08:31:26.947 | INFO     | __main__:process_excel_file:54 - Processed Excel file: example_data\day-forecast.xlsx, Word count saved to: example-processed-data\excel_processed_fullmoon_count.txt
+2025-02-01 08:31:26.947 | INFO     | __main__:<module>:63 - Excel processing complete.
+2025-02-01 08:31:57.222 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 08:31:57.222 | INFO     | __main__:<module>:61 - Starting Excel processing...
+2025-02-01 08:31:57.222 | ERROR    | __main__:count_word_in_column:41 - Error reading Excel file: [Errno 2] No such file or directory: 'example_data\\day-forecast.xlsx'
+2025-02-01 08:31:57.223 | INFO     | __main__:process_excel_file:54 - Processed Excel file: example_data\day-forecast.xlsx, Word count saved to: example-processed-data\excel_processed_fullmoon_count.txt
+2025-02-01 08:31:57.223 | INFO     | __main__:<module>:63 - Excel processing complete.
+2025-02-01 08:33:13.823 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 08:33:13.823 | INFO     | __main__:<module>:61 - Starting Excel processing...
+2025-02-01 08:33:13.823 | ERROR    | __main__:count_word_in_column:41 - Error reading Excel file: [Errno 2] No such file or directory: 'example_data\\day-forecast.xlsx'
+2025-02-01 08:33:13.823 | INFO     | __main__:process_excel_file:54 - Processed Excel file: example_data\day-forecast.xlsx, Word count saved to: example-processed-data\excel_processed_fullmoon_count.txt
+2025-02-01 08:33:13.823 | INFO     | __main__:<module>:63 - Excel processing complete.
+2025-02-01 08:34:55.122 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 08:34:55.122 | INFO     | __main__:<module>:61 - Starting Excel processing...
+2025-02-01 08:34:55.122 | ERROR    | __main__:count_word_in_column:41 - Error reading Excel file: [Errno 2] No such file or directory: 'example_data\\day-forecast.xlsx'
+2025-02-01 08:34:55.122 | INFO     | __main__:process_excel_file:54 - Processed Excel file: example_data\day-forecast.xlsx, Word count saved to: example-processed-data\excel_processed_fullmoon_count.txt
+2025-02-01 08:34:55.122 | INFO     | __main__:<module>:63 - Excel processing complete.
+2025-02-01 08:36:00.610 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 08:36:00.610 | INFO     | __main__:<module>:61 - Starting Excel processing...
+2025-02-01 08:36:00.611 | ERROR    | __main__:count_word_in_column:41 - Error reading Excel file: File is not a zip file
+2025-02-01 08:36:00.611 | INFO     | __main__:process_excel_file:54 - Processed Excel file: C:\Projects\datafun-03-analytics\datafun-03-analytics\example-data\day-forecast.xlsx, Word count saved to: example-processed-data\excel_processed_fullmoon_count.txt
+2025-02-01 08:36:00.612 | INFO     | __main__:<module>:63 - Excel processing complete.
+2025-02-01 08:37:51.930 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 08:37:51.930 | INFO     | __main__:<module>:61 - Starting Excel processing...
+2025-02-01 08:37:51.931 | ERROR    | __main__:count_word_in_column:41 - Error reading Excel file: [Errno 2] No such file or directory: 'example_data\\datafun-03-analytics\\datafun-03-analytics\\example-data\\day-forecast.xlsx'
+2025-02-01 08:37:51.931 | INFO     | __main__:process_excel_file:54 - Processed Excel file: example_data\datafun-03-analytics\datafun-03-analytics\example-data\day-forecast.xlsx, Word count saved to: example-processed-data\excel_processed_fullmoon_count.txt
+2025-02-01 08:37:51.932 | INFO     | __main__:<module>:63 - Excel processing complete.
+2025-02-01 08:38:14.735 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 08:38:14.736 | INFO     | __main__:<module>:61 - Starting Excel processing...
+2025-02-01 08:38:14.736 | ERROR    | __main__:count_word_in_column:41 - Error reading Excel file: [Errno 2] No such file or directory: '\\datafun-03-analytics\\datafun-03-analytics\\example-data\\day-forecast.xlsx'
+2025-02-01 08:38:14.736 | INFO     | __main__:process_excel_file:54 - Processed Excel file: \datafun-03-analytics\datafun-03-analytics\example-data\day-forecast.xlsx, Word count saved to: example-processed-data\excel_processed_fullmoon_count.txt
+2025-02-01 08:38:14.737 | INFO     | __main__:<module>:63 - Excel processing complete.
+2025-02-01 08:38:51.876 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 08:38:51.876 | INFO     | __main__:<module>:61 - Starting Excel processing...
+2025-02-01 08:38:51.876 | ERROR    | __main__:count_word_in_column:41 - Error reading Excel file: [Errno 2] No such file or directory: 'example-data\\datafun-03-analytics\\datafun-03-analytics\\example-data\\day-forecast.xlsx'
+2025-02-01 08:38:51.877 | INFO     | __main__:process_excel_file:54 - Processed Excel file: example-data\datafun-03-analytics\datafun-03-analytics\example-data\day-forecast.xlsx, Word count saved to: example-processed-data\excel_processed_fullmoon_count.txt
+2025-02-01 08:38:51.877 | INFO     | __main__:<module>:63 - Excel processing complete.
+2025-02-01 08:39:13.348 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 08:39:13.349 | INFO     | __main__:<module>:61 - Starting Excel processing...
+2025-02-01 08:39:13.349 | ERROR    | __main__:count_word_in_column:41 - Error reading Excel file: [Errno 2] No such file or directory: 'example-data\\example-data\\day-forecast.xlsx'
+2025-02-01 08:39:13.349 | INFO     | __main__:process_excel_file:54 - Processed Excel file: example-data\example-data\day-forecast.xlsx, Word count saved to: example-processed-data\excel_processed_fullmoon_count.txt
+2025-02-01 08:39:13.350 | INFO     | __main__:<module>:63 - Excel processing complete.
+2025-02-01 08:40:39.652 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 08:40:39.652 | INFO     | __main__:<module>:61 - Starting Excel processing...
+2025-02-01 08:40:39.652 | ERROR    | __main__:count_word_in_column:41 - Error reading Excel file: openpyxl does not support  file format, please check you can open it with Excel first. Supported formats are: .xlsx,.xlsm,.xltx,.xltm
+2025-02-01 08:40:39.652 | INFO     | __main__:process_excel_file:54 - Processed Excel file: C:\Projects\datafun-03-analytics\example-data, Word count saved to: example-processed-data\excel_processed_fullmoon_count.txt
+2025-02-01 08:40:39.652 | INFO     | __main__:<module>:63 - Excel processing complete.
+2025-02-01 08:42:30.993 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 08:42:30.993 | INFO     | __main__:<module>:61 - Starting Excel processing...
+2025-02-01 08:42:30.993 | ERROR    | __main__:count_word_in_column:41 - Error reading Excel file: File is not a zip file
+2025-02-01 08:42:30.996 | INFO     | __main__:process_excel_file:54 - Processed Excel file: C:\Projects\datafun-03-analytics\datafun-03-analytics\example-data\day-forecast.xlsx, Word count saved to: example-processed-data\excel_processed_fullmoon_count.txt
+2025-02-01 08:42:30.997 | INFO     | __main__:<module>:63 - Excel processing complete.
+2025-02-01 08:56:01.352 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 08:56:01.352 | INFO     | __main__:<module>:61 - Starting Excel processing...
+2025-02-01 08:56:01.352 | ERROR    | __main__:count_word_in_column:41 - Error reading Excel file: openpyxl does not support .zip file format, please check you can open it with Excel first. Supported formats are: .xlsx,.xlsm,.xltx,.xltm
+2025-02-01 08:56:01.352 | INFO     | __main__:process_excel_file:54 - Processed Excel file: C:\Projects\datafun-03-analytics\datafun-03-analytics\example-data\day-forecast.zip, Word count saved to: example-processed-data\excel_processed_fullmoon_count.txt
+2025-02-01 08:56:01.352 | INFO     | __main__:<module>:63 - Excel processing complete.
+2025-02-01 08:57:04.715 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 08:57:04.715 | INFO     | __main__:<module>:61 - Starting Excel processing...
+2025-02-01 08:57:04.715 | ERROR    | __main__:count_word_in_column:41 - Error reading Excel file: File is not a zip file
+2025-02-01 08:57:04.715 | INFO     | __main__:process_excel_file:54 - Processed Excel file: C:\Projects\datafun-03-analytics\datafun-03-analytics\example-data\day-forecast.xlsx, Word count saved to: example-processed-data\excel_processed_fullmoon_count.txt
+2025-02-01 08:57:04.715 | INFO     | __main__:<module>:63 - Excel processing complete.
+2025-02-01 08:57:33.826 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 08:57:33.827 | INFO     | __main__:<module>:62 - Starting Excel processing...
+2025-02-01 08:57:33.827 | ERROR    | __main__:count_word_in_column:42 - Error reading Excel file: File is not a zip file
+2025-02-01 08:57:33.828 | INFO     | __main__:process_excel_file:55 - Processed Excel file: C:\Projects\datafun-03-analytics\datafun-03-analytics\example-data\day-forecast.xlsx, Word count saved to: example-processed-data\excel_processed_fullmoon_count.txt
+2025-02-01 08:57:33.829 | INFO     | __main__:<module>:64 - Excel processing complete.
+2025-02-01 08:57:54.895 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 08:57:54.895 | INFO     | __main__:<module>:62 - Starting Excel processing...
+2025-02-01 08:57:54.895 | ERROR    | __main__:count_word_in_column:42 - Error reading Excel file: openpyxl does not support .zip file format, please check you can open it with Excel first. Supported formats are: .xlsx,.xlsm,.xltx,.xltm
+2025-02-01 08:57:54.895 | INFO     | __main__:process_excel_file:55 - Processed Excel file: C:\Projects\datafun-03-analytics\datafun-03-analytics\example-data\day-forecast.zip, Word count saved to: example-processed-data\excel_processed_fullmoon_count.txt
+2025-02-01 08:57:54.895 | INFO     | __main__:<module>:64 - Excel processing complete.
+2025-02-01 08:58:39.002 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 08:58:39.002 | INFO     | __main__:<module>:62 - Starting Excel processing...
+2025-02-01 08:58:39.002 | ERROR    | __main__:count_word_in_column:42 - Error reading Excel file: File is not a zip file
+2025-02-01 08:58:39.002 | INFO     | __main__:process_excel_file:55 - Processed Excel file: C:\Projects\datafun-03-analytics\datafun-03-analytics\example-data\day-forecast.xlsx, Word count saved to: example-processed-data\excel_processed_fullmoon_count.txt
+2025-02-01 08:58:39.002 | INFO     | __main__:<module>:64 - Excel processing complete.
+2025-02-01 09:02:14.489 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 09:02:14.489 | INFO     | __main__:<module>:62 - Starting Excel processing...
+2025-02-01 09:02:14.490 | ERROR    | __main__:count_word_in_column:42 - Error reading Excel file: File is not a zip file
+2025-02-01 09:02:14.490 | INFO     | __main__:process_excel_file:55 - Processed Excel file: C:\Projects\datafun-03-analytics\datafun-03-analytics\example-data\day-forecast.xlsx, Word count saved to: example-processed-data\excel_processed_fullmoon_count.txt
+2025-02-01 09:02:14.490 | INFO     | __main__:<module>:64 - Excel processing complete.
+2025-02-01 09:12:40.190 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 09:12:40.190 | INFO     | __main__:<module>:62 - Starting Excel processing...
+2025-02-01 09:12:40.191 | ERROR    | __main__:count_word_in_column:42 - Error reading Excel file: File is not a zip file
+2025-02-01 09:12:40.191 | INFO     | __main__:process_excel_file:55 - Processed Excel file: C:\Projects\datafun-03-analytics\datafun-03-analytics\example-data\day-forecast.xlsx, Word count saved to: example-processed-data\excel_processed_fullmoon_count.txt
+2025-02-01 09:12:40.192 | INFO     | __main__:<module>:64 - Excel processing complete.
+2025-02-01 09:54:37.188 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 09:54:37.188 | INFO     | __main__:<module>:61 - Starting Excel processing...
+2025-02-01 09:54:37.188 | ERROR    | __main__:count_word_in_column:41 - Error reading Excel file: File is not a zip file
+2025-02-01 09:54:37.188 | INFO     | __main__:process_excel_file:54 - Processed Excel file: C:\Projects\datafun-03-analytics\datafun-03-analytics\example-data\movie_names.xlsx, Word count saved to: example-processed-data\excel_processed_movie_name_count.txt
+2025-02-01 09:54:37.188 | INFO     | __main__:<module>:63 - Excel processing complete.
+2025-02-01 09:56:55.382 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 09:56:55.383 | INFO     | __main__:<module>:61 - Starting Excel processing...
+2025-02-01 09:56:55.383 | ERROR    | __main__:count_word_in_column:41 - Error reading Excel file: File is not a zip file
+2025-02-01 09:56:55.384 | INFO     | __main__:process_excel_file:54 - Processed Excel file: C:\Projects\datafun-03-analytics\datafun-03-analytics\example-data\movie_names.xlsx, Word count saved to: example-processed-data\excel_processed_movie_name_count.txt
+2025-02-01 09:56:55.384 | INFO     | __main__:<module>:63 - Excel processing complete.
+2025-02-01 10:05:20.801 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 10:05:20.801 | INFO     | __main__:<module>:61 - Starting Excel processing...
+2025-02-01 10:05:20.803 | ERROR    | __main__:count_word_in_column:42 - Error reading Excel file: [Errno 2] No such file or directory: 'path/to/your/file.xlsx'
+2025-02-01 10:05:20.803 | INFO     | __main__:process_excel_file:54 - Processed Excel file: C:\Projects\datafun-03-analytics\datafun-03-analytics\example-data\movie_names.xlsx, Word count saved to: example-processed-data\excel_processed_movie_name_count.txt
+2025-02-01 10:05:20.804 | INFO     | __main__:<module>:63 - Excel processing complete.
+2025-02-01 10:05:52.646 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 10:05:52.647 | INFO     | __main__:<module>:61 - Starting Excel processing...
+2025-02-01 10:05:52.647 | ERROR    | __main__:count_word_in_column:42 - Error reading Excel file: File is not a zip file
+2025-02-01 10:05:52.648 | INFO     | __main__:process_excel_file:54 - Processed Excel file: C:\Projects\datafun-03-analytics\datafun-03-analytics\example-data\movie_names.xlsx, Word count saved to: example-processed-data\excel_processed_movie_name_count.txt
+2025-02-01 10:05:52.648 | INFO     | __main__:<module>:63 - Excel processing complete.
+2025-02-01 10:37:05.271 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 10:37:05.271 | INFO     | __main__:<module>:67 - Starting JSON processing...
+2025-02-01 10:37:05.287 | ERROR    | __main__:count_ribbon_by_county:44 - Error reading or processing JSON file: [Errno 2] No such file or directory: 'example-data\\state-fair.json'
+2025-02-01 10:39:58.738 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 10:39:58.738 | INFO     | __main__:<module>:67 - Starting JSON processing...
+2025-02-01 10:40:37.893 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 10:40:37.894 | INFO     | __main__:<module>:67 - Starting JSON processing...
+2025-02-01 10:49:15.927 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 10:49:15.927 | INFO     | __main__:<module>:74 - Starting JSON processing...
+2025-02-01 10:50:03.514 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 10:50:03.514 | INFO     | __main__:<module>:76 - Starting JSON processing...
+2025-02-01 10:51:08.171 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 10:51:08.171 | INFO     | __main__:<module>:76 - Starting JSON processing...
+2025-02-01 11:08:35.082 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 11:08:35.082 | INFO     | __main__:<module>:82 - Starting JSON processing...
+2025-02-01 11:08:35.082 | INFO     | __main__:process_json_file:73 - Processed JSON file: C:\Projects\datafun-03-analytics\datafun-03-analytics\example-data\state-fair.json, Results saved to: example_processed\state-fair-ribbon.txt
+2025-02-01 11:08:35.082 | INFO     | __main__:<module>:84 - JSON processing complete.
+2025-02-01 11:37:10.766 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 11:37:10.766 | INFO     | __main__:<module>:61 - Starting Excel processing...
+2025-02-01 11:37:10.767 | ERROR    | __main__:count_word_in_column:42 - Error reading Excel file: File is not a zip file
+2025-02-01 11:37:10.767 | INFO     | __main__:process_excel_file:54 - Processed Excel file: C:\Projects\datafun-03-analytics\datafun-03-analytics\example-data\movie_names.xlsx, Word count saved to: example-processed-data\excel_processed_movie_name_count.txt
+2025-02-01 11:37:10.767 | INFO     | __main__:<module>:63 - Excel processing complete.
+2025-02-01 11:41:11.666 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 11:41:11.666 | INFO     | __main__:<module>:52 - Starting text processing...
+2025-02-01 11:41:11.667 | INFO     | __main__:process_text_file:45 - Processed text file: C:\Projects\datafun-03-analytics\datafun-03-analytics\example-data\jimmy-buffett.txt, Word count saved to: example-processed-data\example-processed-data
+2025-02-01 11:41:11.667 | INFO     | __main__:<module>:54 - Text processing complete.
+2025-02-01 11:59:23.894 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 11:59:23.895 | INFO     | __main__:<module>:52 - Starting text processing...
+2025-02-01 11:59:23.895 | INFO     | __main__:process_text_file:45 - Processed text file: C:\Projects\datafun-03-analytics\datafun-03-analytics\example-data\jimmy-buffett.txt, Word count saved to: example-processed-data\example-processed-data
+2025-02-01 11:59:23.896 | INFO     | __main__:<module>:54 - Text processing complete.
+2025-02-01 12:12:42.807 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 12:12:42.808 | INFO     | __main__:<module>:52 - Starting text processing...
+2025-02-01 12:12:42.809 | INFO     | __main__:process_text_file:45 - Processed text file: C:\Projects\datafun-03-analytics\datafun-03-analytics\example-data\jimmy-buffett.txt, Word count saved to: example-processed-data\example-processed-data
+2025-02-01 12:12:42.809 | INFO     | __main__:<module>:54 - Text processing complete.
+2025-02-02 07:58:32.843 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-02 07:58:32.843 | INFO     | __main__:main:94 - Starting JSON fetch demonstration...
+2025-02-02 07:58:32.843 | INFO     | __main__:fetch_json_file:53 - Fetching JSON data from http://api.open-notify.org/astros.json...
+2025-02-02 07:58:34.109 | INFO     | __main__:write_json_file:77 - Writing JSON data to example_data\astros.json...
+2025-02-02 07:58:34.115 | INFO     | __main__:write_json_file:81 - SUCCESS: JSON data written to example_data\astros.json
+2025-02-02 07:58:34.115 | INFO     | __main__:fetch_json_file:57 - SUCCESS: JSON file fetched and saved as astros.json
+2025-02-10 18:08:51.618 | INFO     | __main__:<module>:41 - Logging to file: logs\project_log.log
+2025-02-10 18:08:51.618 | INFO     | __main__:main:63 - STARTING utils_logger.py
+2025-02-10 18:08:51.618 | INFO     | __main__:log_example:54 - This is an example info message.
+2025-02-10 18:08:51.618 | WARNING  | __main__:log_example:55 - This is an example warning message.
+2025-02-10 18:08:51.618 | ERROR    | __main__:log_example:56 - This is an example error message.
+2025-02-10 18:08:51.618 | INFO     | __main__:main:68 - View the log output at logs\project_log.log
+2025-02-10 18:08:51.618 | INFO     | __main__:main:69 - EXITING utils_logger.py.
+2025-02-10 18:10:54.353 | INFO     | __main__:<module>:41 - Logging to file: logs\project_log.log
+2025-02-10 18:10:54.354 | INFO     | __main__:main:63 - STARTING utils_logger.py
+2025-02-10 18:10:54.354 | INFO     | __main__:log_example:54 - This is an example info message.
+2025-02-10 18:10:54.354 | WARNING  | __main__:log_example:55 - This is an example warning message.
+2025-02-10 18:10:54.354 | ERROR    | __main__:log_example:56 - This is an example error message.
+2025-02-10 18:10:54.354 | INFO     | __main__:main:68 - View the log output at logs\project_log.log
+2025-02-10 18:10:54.354 | INFO     | __main__:main:69 - EXITING utils_logger.py.
+2025-02-10 18:12:23.258 | INFO     | __main__:<module>:41 - Logging to file: logs\project_log.log
+2025-02-10 18:12:23.258 | INFO     | __main__:main:63 - STARTING utils_logger.py
+2025-02-10 18:12:23.258 | INFO     | __main__:log_example:54 - This is an example info message.
+2025-02-10 18:12:23.258 | WARNING  | __main__:log_example:55 - This is an example warning message.
+2025-02-10 18:12:23.258 | ERROR    | __main__:log_example:56 - This is an example error message.
+2025-02-10 18:12:23.258 | INFO     | __main__:main:68 - View the log output at logs\project_log.log
+2025-02-10 18:12:23.258 | INFO     | __main__:main:69 - EXITING utils_logger.py.
