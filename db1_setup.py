@@ -1,69 +1,73 @@
-'''
-Use Python to create a new relational database and store it in the data folder. 
-'''
+"""Python script to create a new SQLite database, create tables, and insert data from CSV files."""
 
-# Imports from Python Standard Library
 import sqlite3
-import os
+import pandas as pd
 import pathlib
-
-# Import local modules
 from utils_logger import logger
 
-def execute_sql_file(connection, file_path) -> None:
-    """
-    Executes a SQL file using the provided SQLite connection.
+db_file = pathlib.Path("db.sqlite")
 
-    Args:
-        connection (sqlite3.Connection): SQLite connection object.
-        file_path (str): Path to the SQL file to be executed.
-    """
-    # We know reading from a file can raise exceptions, so we wrap it in a try block
-    # For example, the file might not exist, or the file might not be readable
+def create_db():
+    """Create a new SQLite database. If the file doesn't exist, it will be created.
+    Close the connection to the database when done."""
     try:
-        with open(file_path, 'r') as file:
-            # Read the SQL file into a string
-            sql_script: str = file.read()
-        with connection:
-            # Use the connection as a context manager to execute the SQL script
-            connection.executescript(sql_script)
-            logger.info(f"Executed: {file_path}")
-    except Exception as e:
-        logger.error(f"Failed to execute {file_path}: {e}")
-        raise
+        conn = sqlite3.connect(db_file)
+        conn.close()
+        logger.info(f"Database created: {db_file}")
+    except sqlite3.Error as e:
+        logger.error("Error creating database:", e)
 
-def main() -> None:
 
-    # Log start of database setup
-    logger.info("Starting database setup...")
-    
-    # Define path variables
-    ROOT_DIR = pathlib.Path(__file__).parent.resolve()
-    SQL_CREATE_FOLDER = ROOT_DIR.joinpath("sql_create")
-    DATA_FOLDER = ROOT_DIR.joinpath("data")
-    DB_PATH = DATA_FOLDER.joinpath('db.sqlite')
-
-    # Ensure the data folder where we will put the db exists
-    DATA_FOLDER.mkdir(exist_ok=True)
-
-    # Connect to SQLite database (it will be created if it doesn't exist)
+def drop_tables():
+    """Function that reads and executes SQL statements to drop tables."""
     try:
-        connection = sqlite3.connect(DB_PATH)
-        logger.info(f"Connected to database: {DB_PATH}")
-
-        # Execute SQL files to set up the database
-        # Pass in the connection and the path to the SQL file to be executed
-        execute_sql_file(connection, SQL_CREATE_FOLDER.joinpath('01_drop_tables.sql'))
-        execute_sql_file(connection, SQL_CREATE_FOLDER.joinpath('02_create_tables.sql'))
-        execute_sql_file(connection, SQL_CREATE_FOLDER.joinpath('03_insert_records.sql'))
-
-        logger.info("Database setup completed successfully.")
-    except Exception as e:
-        logger.error(f"Error during database setup: {e}")
-    finally:
-        connection.close()
-        logger.info("Database connection closed.")
+        with sqlite3.connect(db_file) as conn:
+            sql_file = pathlib.Path("datafun-05-sql", "sql_create", "01_drop_tables.sql")
+            with open(sql_file, "r") as file:
+                sql_script = file.read()
+            conn.executescript(sql_script)
+            logger.info("Tables dropped")
+    except sqlite3.Error as e:
+        logger.error("Error dropping tables:", e)
 
 
-if __name__ == '__main__':
+def create_tables():
+    """Read and execute SQL statements to create tables."""
+    # Drop tables first
+    drop_tables()
+    try:
+        with sqlite3.connect(db_file) as conn:
+            sql_file = pathlib.Path("datafun-05-sql", "sql_create", "02_create_tables.sql")
+            with open(sql_file, "r") as file:
+                sql_script = file.read()
+            conn.executescript(sql_script)
+            logger.info("Tables created")
+    except sqlite3.Error as e:
+        logger.error("Error creating tables:", e)
+
+
+def insert_data_from_csv():
+    """Function to use pandas to read data from CSV files (in 'data' folder)
+    and insert the records into their respective tables."""
+    try:
+        author_data_path = pathlib.Path("datafun-05-sql", "data", "authors.csv")
+        book_data_path = pathlib.Path("datafun-05-sql", "data", "books.csv")
+        authors_df = pd.read_csv(author_data_path)
+        books_df = pd.read_csv(book_data_path)
+        with sqlite3.connect(db_file) as conn:
+            # Use the pandas DataFrame to_sql() method to insert data
+            # pass in the table name and the connection
+            authors_df.to_sql("authors", conn, if_exists="replace", index=False)
+            books_df.to_sql("books", conn, if_exists="replace", index=False)
+            print("Data inserted successfully.")
+    except (sqlite3.Error, pd.errors.EmptyDataError, FileNotFoundError) as e:
+        print("Error inserting data:", e)
+
+
+def main():
+    create_db()
+    create_tables()
+    insert_data_from_csv()
+
+if __name__ == "__main__":
     main()
