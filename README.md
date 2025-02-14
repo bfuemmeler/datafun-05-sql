@@ -66,7 +66,8 @@ D. Select VS Code interpreter to use .venv
 ## Step 4: Schema Design and Database Initialization
 
 Design a schema with at least two related tables, including foreign key constraints.
-Document the schema design in your README.md.
+Authors.csv & Books.csv built to db.sqlite database
+Other ideas: Suppliers & Orders
 
 # Added P5 data folder
 # Added author.csv file and books.csv file
@@ -77,12 +78,9 @@ sql_create folder:
 - 02_create_tables.sql - create your database schema using sql 
 - 03_insert_records.sql - insert at least 10 additional records into each table.
 
-db01_setup.py:
-
-Create a Python script that demonstrates the ability to create a database, define a schema, and insert records. 
-Make it easy to re-run by dropping the tables first.
-
-
+db1_setup.py:
+- script must connect correctly to the tables in db.sqlite.
+![alt text](image.png)
 
 
 ## Step 5. Cleaning and Feature Engineering
@@ -97,11 +95,11 @@ sql_features folder:
 1. update_records.sql - update 1 or more records in a table.
 2. delete_records.sql - delete 1 or more records from a table.
 
-db02_features.py
+db2_features.py
 
-Create a Python script that demonstrates the ability to run sql scripts 
+Creates a Python script that demonstrates the ability to run sql scripts 
 to interact with fields, update records, delete records, and maybe add additional columns. 
-
+![alt text](image-1.png)
 
 
 ## Step 6. Perform Aggregations and queries
@@ -113,14 +111,10 @@ sql_queries folder:
 1. query_aggregation.sql - use aggregation functions including COUNT, AVG, SUM.
 2. query_filter.sql - use WHERE to filter data based on conditions.
 3. query_sorting.sql - use ORDER BY to sort data.
-4. query_group_by.sql - use GROUP BY clause (and optionally with aggregation)
-5. query_join.sql - use INNER JOIN operation and optionally include LEFT JOIN, RIGHT JOIN, etc.
+4. query_join.sql - use INNER JOIN operation and optionally include LEFT JOIN, RIGHT JOIN, etc.
+5. querylistbooks.py - use to print the list of books
 
-Use Python to execute the SQL queries and maybe chart, illustrate, and/or summarize your findings:
+Write Python to execute the SQL queries and maybe chart, illustrate, and/or summarize your findings:
 
-db03_queries.py
-
-## NOTE: IN-PROGRESS
-
-This module is still in progress. 
-Additional instructions and assistance will be added.
+db3_queries.py
+![alt text](image-2.png)
